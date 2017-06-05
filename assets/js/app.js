@@ -1,4 +1,9 @@
 $(() =>  {
+  $("input[type='radio']").click(function(){
+    moveRight();
+    this.addClass("select");
+  });
+
 
   // Obteniendo los el ancho y el alto de todas las li que contienen la imagen
 	var slideCount = $('#slider ul li').length;

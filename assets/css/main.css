@@ -1,26 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-
-html {
-  border-top: 5px solid #fff;
-  background: #58DDAF;
-  color: #2a2a2a;
-}
-
 html, body {
+  background: #58DDAF;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans';
 }
-
 .contenedor-slider {
    margin: auto;
    width: 85%;
    max-width: 900px;
    position: relative;
    overflow: hidden;
-   /*box-shadow: 0 0 0 10px #fff, 0 15px 50px; */
 }
-
 
 #slider {
   position: relative;
@@ -32,7 +21,6 @@ html, body {
   position: relative;
   margin: 0;
   padding: 0;
-  /*height: 200px;*/
   list-style: none;
 }
 
@@ -40,7 +28,6 @@ html, body {
   position: relative;
   display: block;
   float: left;
-  /*width: 500px;*/
   height: 300px;
   background: #ccc;
 }
@@ -91,4 +78,8 @@ div.btn-next {
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
+}
+.circle:hover,
+.select{
+  background-color:  #12DAAA;
 }
